@@ -1,0 +1,23 @@
+.bg-header{
+    background: rgb(50, 140, 57);
+    background-image: url(bg-header.jpg) no-repeat;
+    background-image: url(bg-header.jpg), linear-gradient(160deg, rgb(50, 140, 57), black);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-header img {
+    width: 25%;
+}
+.navbar-tittle {
+    font-family: 'Aladin', cursive;
+    text-shadow: 0 4px rgba(0,0,0, .5);
+    font-size: 25px;
+}
+
+@media (max-width: 768px){
+ .bg-header img {
+        width: 50%;
+    }
+}
